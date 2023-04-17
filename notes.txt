@@ -1,0 +1,7 @@
+for each pixel p(x,y,z) of the screen:
+    associate a black color to p
+    if the ray (line) that starts at camera and goes towards p intersects any object of the scene then:
+        calculate the intersection point to the nearest object
+        if there is no object of the scene in-between the intersection point and the light then:
+            calculate the color of the intersection point
+            associate the color of the intersection point to p
